@@ -1,0 +1,10 @@
+<header class="header">
+  <div class="logo">Your Logo</div>
+  <nav class="nav-links">
+    <a *ngFor="let link of navLinks" [routerLink]="link.route">{{
+      link.label
+    }}</a>
+  </nav>
+  <button class="button">Your Button</button>
+</header>
+  
